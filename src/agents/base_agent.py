@@ -5,7 +5,7 @@ class AgentMessage:
     role: str
     content: str
 
-class BaseAgent():
+class BaseAgent:
     def __init__(self, role, tools, llm_client, max_react_steps=5):
         self.role = role
         self.tools = tools
